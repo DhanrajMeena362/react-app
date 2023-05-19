@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+body {
+  background-color: black;
+  padding: 0px 2vw 0px 2vw;
+}
+
+h1 {
+  font-size: 2vw;
+  color: white;
+  font-family: "Open Sans";
+}
+
+.lower {
+  opacity: 0.3;
+  position: absolute;
+  color: white;
+  margin: 0px 0px 0px 0px;
+}
+
+#upper {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+
+.word-by-word {
+  opacity: 0;
+
+  transition: opacity 0.3s;
+}
